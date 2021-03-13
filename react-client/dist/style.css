@@ -1,0 +1,97 @@
+body {
+  font-family: 'Lucida Sans';
+  font-weight: bold;
+  font-size: 1.2em;  
+  
+}
+
+.image{
+  width: 50%;
+  height: auto;
+  display: flex;
+
+}
+
+.bd {
+  background-color: #8a0f06;
+  width: 100px;
+  height: 30px;
+  margin-top: 60px;
+  box-sizing: border-box;
+  color : white;
+
+}
+
+button {
+  background-color: #706968
+}
+
+
+
+
+
+
+.logo {
+  font-weight: bold;
+  font-size: 1.9em;
+  margin-right: auto;
+  margin-left: 10px;
+  font-family: 'Lucida Sans';
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.nav {
+  background-color: #8a0f06;
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Lucida Sans';
+}
+
+.nav-selected {
+  padding: 0 35px;
+  color: white;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
+
+.nav-unselected {
+  padding: 0 25px;
+  margin-right: 5px;
+  font-size: 1.1em;
+}
+
+
+
+.search {
+    margin-right: 10px;
+    display: flex;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.myInput {
+  width: 80%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+}
+
+.addbtn{
+  width:47rem;
+  height: 3rem;
+  background-color: green;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  display: flex;
+}

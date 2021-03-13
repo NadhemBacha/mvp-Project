@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS rentalcar;
+
+CREATE DATABASE rentalcar;
+
+USE rentalcar;
+
+CREATE TABLE mycars( 
+
+  ID INT AUTO_INCREMENT,
+  numberPlate VARCHAR(25) NOT NULL,
+  carBrand VARCHAR(100) NOT NULL,
+  imageUrl VARCHAR(1000) NOT NULL,
+  PRIMARY KEY (ID)
+)
+
+
