@@ -93,5 +93,5 @@ button {
   font-weight: bold;
   font-size: 18px;
   color: white;
-  display: flex;
+  text-align: center;
 }
